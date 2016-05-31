@@ -14,6 +14,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:({
+        UIView *view;
+        view;
+    })];
+
+
 }
 
 
