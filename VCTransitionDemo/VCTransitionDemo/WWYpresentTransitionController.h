@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface taobaoTransitionController : UIViewController<UIViewControllerTransitioningDelegate>
+@interface WWYpresentTransitionController : UIViewController<UIViewControllerTransitioningDelegate>
 
-+ (taobaoTransitionController *)sharedInstanceTypeWithPresentingVC:(UIViewController *)presentingVC;
++ (WWYpresentTransitionController *)sharedInstanceTypeWithPresentingVC:(UIViewController *)presentingVC;
 
 @property (nonatomic,assign,readonly)UIModalPresentationStyle modalStyle;
 

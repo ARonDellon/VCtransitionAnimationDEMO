@@ -6,20 +6,24 @@
 //  Copyright © 2016年 wangweiyi. All rights reserved.
 //
 
-#import "taobaoTransitionController.h"
+#import "WWYpresentTransitionController.h"
 #import "taobaoTransition.h"
 
-@interface taobaoTransitionController ()<UIViewControllerTransitioningDelegate>
+@interface WWYpresentTransitionController ()<UIViewControllerTransitioningDelegate>
 
 @property (nonatomic,strong)UIViewController *presentingVC;
 @property (nonatomic,assign,readwrite)UIModalPresentationStyle modalStyle;
 
 @end
 
-@implementation taobaoTransitionController
+@implementation WWYpresentTransitionController
 
-+ (taobaoTransitionController *)sharedInstanceTypeWithPresentingVC:(UIViewController *)presentingVC {
-    taobaoTransitionController *share = [[taobaoTransitionController alloc]init];
++ (WWYpresentTransitionController *)sharedInstanceTypeWithPresentingVC:(UIViewController *)presentingVC {
+    static dispatch_once_t onceToken;
+    __block WWYpresentTransitionController *share = nil;
+    dispatch_once(&onceToken, ^{
+        share = [[WWYpresentTransitionController alloc]init];
+    });
     share.presentingVC = presentingVC;
     share.modalStyle = UIModalPresentationCustom;
     return share;

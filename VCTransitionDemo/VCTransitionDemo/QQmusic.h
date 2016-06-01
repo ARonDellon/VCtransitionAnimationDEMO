@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QQmusic : UIViewController
+@interface QQmusic : UIViewController<UINavigationControllerDelegate>
+
+@property (nonatomic,strong)UIView *view1;
 
 @end

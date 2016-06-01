@@ -7,12 +7,12 @@
 //
 
 #import "destinationVC.h"
-#import "taobaoTransitionController.h"
+#import "WWYpresentTransitionController.h"
 
 @interface destinationVC ()
 
 
-@property (nonatomic,strong)taobaoTransitionController *transition;
+@property (nonatomic,strong)WWYpresentTransitionController *transition;
 
 
 @end
@@ -41,9 +41,9 @@
 }
 
 
-- (taobaoTransitionController *)transition {
+- (WWYpresentTransitionController *)transition {
     if (!_transition) {
-        _transition = [taobaoTransitionController sharedInstanceTypeWithPresentingVC:self];
+        _transition = [WWYpresentTransitionController sharedInstanceTypeWithPresentingVC:self];
     }
     return _transition;
 }

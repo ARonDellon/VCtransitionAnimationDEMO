@@ -19,7 +19,11 @@
 		828B0BDE1CF6C1930031967D /* QQmusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 828B0BDD1CF6C1930031967D /* QQmusic.m */; };
 		828B0BE11CF6C1A30031967D /* destinationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 828B0BE01CF6C1A30031967D /* destinationVC.m */; };
 		828B0BE71CF80A910031967D /* taobaoTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 828B0BE61CF80A910031967D /* taobaoTransition.m */; };
-		82D40A611CFC06B50050820F /* taobaoTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D40A601CFC06B50050820F /* taobaoTransitionController.m */; };
+		82D40A611CFC06B50050820F /* WWYpresentTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D40A601CFC06B50050820F /* WWYpresentTransitionController.m */; };
+		82D40A661CFD69A40050820F /* oneViewMovePushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D40A651CFD69A40050820F /* oneViewMovePushTransition.m */; };
+		82D40A6C1CFD702B0050820F /* qqDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D40A6B1CFD702B0050820F /* qqDetailVC.m */; };
+		82E958A01CFEA31A007792B3 /* pushAnimationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E9589F1CFEA31A007792B3 /* pushAnimationControl.m */; };
+		82E958A61CFEC212007792B3 /* interactiveControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E958A51CFEC212007792B3 /* interactiveControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +68,16 @@
 		828B0BE01CF6C1A30031967D /* destinationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = destinationVC.m; sourceTree = "<group>"; };
 		828B0BE51CF80A910031967D /* taobaoTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taobaoTransition.h; sourceTree = "<group>"; };
 		828B0BE61CF80A910031967D /* taobaoTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taobaoTransition.m; sourceTree = "<group>"; };
-		82D40A5F1CFC06B50050820F /* taobaoTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taobaoTransitionController.h; sourceTree = "<group>"; };
-		82D40A601CFC06B50050820F /* taobaoTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taobaoTransitionController.m; sourceTree = "<group>"; };
+		82D40A5F1CFC06B50050820F /* WWYpresentTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWYpresentTransitionController.h; sourceTree = "<group>"; };
+		82D40A601CFC06B50050820F /* WWYpresentTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWYpresentTransitionController.m; sourceTree = "<group>"; };
+		82D40A641CFD69A40050820F /* oneViewMovePushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewMovePushTransition.h; sourceTree = "<group>"; };
+		82D40A651CFD69A40050820F /* oneViewMovePushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewMovePushTransition.m; sourceTree = "<group>"; };
+		82D40A6A1CFD702B0050820F /* qqDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qqDetailVC.h; sourceTree = "<group>"; };
+		82D40A6B1CFD702B0050820F /* qqDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qqDetailVC.m; sourceTree = "<group>"; };
+		82E9589E1CFEA31A007792B3 /* pushAnimationControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pushAnimationControl.h; sourceTree = "<group>"; };
+		82E9589F1CFEA31A007792B3 /* pushAnimationControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pushAnimationControl.m; sourceTree = "<group>"; };
+		82E958A41CFEC212007792B3 /* interactiveControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interactiveControl.h; sourceTree = "<group>"; };
+		82E958A51CFEC212007792B3 /* interactiveControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = interactiveControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +176,8 @@
 				828B0BDA1CF6C18B0031967D /* taobao.m */,
 				828B0BE51CF80A910031967D /* taobaoTransition.h */,
 				828B0BE61CF80A910031967D /* taobaoTransition.m */,
-				82D40A5F1CFC06B50050820F /* taobaoTransitionController.h */,
-				82D40A601CFC06B50050820F /* taobaoTransitionController.m */,
+				82D40A5F1CFC06B50050820F /* WWYpresentTransitionController.h */,
+				82D40A601CFC06B50050820F /* WWYpresentTransitionController.m */,
 				828B0BDF1CF6C1A30031967D /* destinationVC.h */,
 				828B0BE01CF6C1A30031967D /* destinationVC.m */,
 			);
@@ -177,6 +189,14 @@
 			children = (
 				828B0BDC1CF6C1930031967D /* QQmusic.h */,
 				828B0BDD1CF6C1930031967D /* QQmusic.m */,
+				82D40A6A1CFD702B0050820F /* qqDetailVC.h */,
+				82D40A6B1CFD702B0050820F /* qqDetailVC.m */,
+				82E9589E1CFEA31A007792B3 /* pushAnimationControl.h */,
+				82E9589F1CFEA31A007792B3 /* pushAnimationControl.m */,
+				82E958A41CFEC212007792B3 /* interactiveControl.h */,
+				82E958A51CFEC212007792B3 /* interactiveControl.m */,
+				82D40A641CFD69A40050820F /* oneViewMovePushTransition.h */,
+				82D40A651CFD69A40050820F /* oneViewMovePushTransition.m */,
 			);
 			name = "qq音乐transition";
 			sourceTree = "<group>";
@@ -311,13 +331,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E958A01CFEA31A007792B3 /* pushAnimationControl.m in Sources */,
 				828B0BAD1CF6C00C0031967D /* ViewController.m in Sources */,
+				82E958A61CFEC212007792B3 /* interactiveControl.m in Sources */,
+				82D40A6C1CFD702B0050820F /* qqDetailVC.m in Sources */,
 				828B0BDB1CF6C18B0031967D /* taobao.m in Sources */,
 				828B0BE71CF80A910031967D /* taobaoTransition.m in Sources */,
 				828B0BDE1CF6C1930031967D /* QQmusic.m in Sources */,
-				82D40A611CFC06B50050820F /* taobaoTransitionController.m in Sources */,
+				82D40A611CFC06B50050820F /* WWYpresentTransitionController.m in Sources */,
 				828B0BAA1CF6C00C0031967D /* AppDelegate.m in Sources */,
 				828B0BA71CF6C00C0031967D /* main.m in Sources */,
+				82D40A661CFD69A40050820F /* oneViewMovePushTransition.m in Sources */,
 				828B0BE11CF6C1A30031967D /* destinationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
