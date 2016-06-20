@@ -12,7 +12,7 @@
 @interface destinationVC ()
 
 
-@property (nonatomic,strong)WWYpresentTransitionController *transition;
+@property (nonatomic,strong)WWYpresentTransitionController *transition;//1
 
 
 @end
@@ -29,8 +29,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
-    self.transitioningDelegate = self.transition;
-    self.modalPresentationStyle = self.transition.modalStyle;
+    self.transitioningDelegate = self.transition;                       //2
+    self.modalPresentationStyle = self.transition.modalStyle;           //3
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(dismiss)];
     [self.view addGestureRecognizer:tap];

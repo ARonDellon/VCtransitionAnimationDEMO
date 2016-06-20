@@ -19,11 +19,8 @@
 @implementation WWYpresentTransitionController
 
 + (WWYpresentTransitionController *)sharedInstanceTypeWithPresentingVC:(UIViewController *)presentingVC {
-    static dispatch_once_t onceToken;
-    __block WWYpresentTransitionController *share = nil;
-    dispatch_once(&onceToken, ^{
-        share = [[WWYpresentTransitionController alloc]init];
-    });
+
+    WWYpresentTransitionController*  share = [[WWYpresentTransitionController alloc]init];
     share.presentingVC = presentingVC;
     share.modalStyle = UIModalPresentationCustom;
     return share;
